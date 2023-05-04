@@ -1,0 +1,36 @@
+import React, { Component } from 'react'
+import {Link,withRouter} from 'react-router-dom'
+import { Layout, Menu } from 'antd';
+
+const { Content, Sider } = Layout;
+import setmenuList from './setmenuConfig'
+
+export default class SysSet extends Component {
+    render() {
+        return (
+            <Layout>
+            <Content style={{ padding: '0 0px' }}>
+              <Layout style={{ padding: '24px 0', background: '#fff' }}>
+                <Sider width={200} style={{ background: '#fff' }}>
+                  <Menu
+                    mode="inline"
+                    defaultSelectedKeys={['1']}
+                    defaultOpenKeys={['sub1']}
+                    style={{ height: '100%' }}
+                  >
+                      <Menu.Item key="baseset">基本设置</Menu.Item>
+                      <Menu.Item key="secset">安全设置</Menu.Item>
+                      <Menu.Item key="ldapset">LDAP设置</Menu.Item>
+                      <Menu.Item key="keyset">密钥设置</Menu.Item>
+                      <Menu.Item key="alertset">报警服务设置</Menu.Item>
+                      <Menu.Item key="openset">开放服务设置</Menu.Item>
+                      <Menu.Item key="about">关于</Menu.Item>
+                  </Menu>
+                </Sider>
+                <Content style={{ padding: '10px 24px', minHeight: 580 }}>基本设置</Content>
+              </Layout>
+            </Content>
+          </Layout>
+        )
+    }
+}

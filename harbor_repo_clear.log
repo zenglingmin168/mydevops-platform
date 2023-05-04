@@ -1,0 +1,14 @@
+ERROR 2022-09-27 16:45:16,418 82379 4562730432 /Users/zenglingmin/Downloads/mydp/mydevops-platform/stu_shop_managerBE/stu_shop_managerBE/harbor_ops.py harbor_ops.py soft_del_repos[line: 73] apilogin fail:
+ERROR 2022-09-27 16:45:44,140 82424 4496145856 /Users/zenglingmin/Downloads/mydp/mydevops-platform/stu_shop_managerBE/stu_shop_managerBE/harbor_ops.py harbor_ops.py soft_del_repos[line: 73] apilogin fail:
+ERROR 2022-09-27 16:46:06,924 82475 4678929856 /Users/zenglingmin/Downloads/mydp/mydevops-platform/stu_shop_managerBE/stu_shop_managerBE/harbor_ops.py harbor_ops.py soft_del_repos[line: 73] apilogin fail:
+ERROR 2022-09-27 16:46:37,002 82533 4445797824 /Users/zenglingmin/Downloads/mydp/mydevops-platform/stu_shop_managerBE/stu_shop_managerBE/harbor_ops.py harbor_ops.py soft_del_repos[line: 73] apilogin fail:
+ERROR 2022-09-27 16:46:58,496 82574 4473023936 /Users/zenglingmin/Downloads/mydp/mydevops-platform/stu_shop_managerBE/stu_shop_managerBE/harbor_ops.py harbor_ops.py soft_del_repos[line: 73] apilogin fail:
+ERROR 2022-09-27 16:47:21,310 82611 4413496768 /Users/zenglingmin/Downloads/mydp/mydevops-platform/stu_shop_managerBE/stu_shop_managerBE/harbor_ops.py harbor_ops.py soft_del_repos[line: 74] apilogin fail:
+ERROR 2022-09-27 16:47:38,265 82641 4677217728 /Users/zenglingmin/Downloads/mydp/mydevops-platform/stu_shop_managerBE/stu_shop_managerBE/harbor_ops.py harbor_ops.py soft_del_repos[line: 74] apilogin fail:
+ERROR 2022-09-27 16:48:11,776 82695 4542688704 /Users/zenglingmin/Downloads/mydp/mydevops-platform/stu_shop_managerBE/stu_shop_managerBE/harbor_ops.py harbor_ops.py soft_del_repos[line: 74] apilogin fail:
+ERROR 2022-09-27 16:48:42,993 82741 4521348544 /Users/zenglingmin/Downloads/mydp/mydevops-platform/stu_shop_managerBE/stu_shop_managerBE/harbor_ops.py harbor_ops.py soft_del_repos[line: 75] apilogin fail:
+ERROR 2022-09-27 16:49:09,241 82802 4498361792 /Users/zenglingmin/Downloads/mydp/mydevops-platform/stu_shop_managerBE/stu_shop_managerBE/harbor_ops.py harbor_ops.py soft_del_repos[line: 75] apilogin fail:
+ERROR 2022-09-27 16:49:50,163 82857 4577263040 /Users/zenglingmin/Downloads/mydp/mydevops-platform/stu_shop_managerBE/stu_shop_managerBE/harbor_ops.py harbor_ops.py soft_del_repos[line: 75] apilogin fail:
+ERROR 2022-09-27 16:51:27,935 82957 4444810688 /Users/zenglingmin/Downloads/mydp/mydevops-platform/stu_shop_managerBE/stu_shop_managerBE/harbor_ops.py harbor_ops.py soft_del_repos[line: 75] apilogin fail:
+ERROR 2022-09-27 16:52:01,175 83010 4592438720 /Users/zenglingmin/Downloads/mydp/mydevops-platform/stu_shop_managerBE/stu_shop_managerBE/harbor_ops.py harbor_ops.py soft_del_repos[line: 75] apilogin fail:  haha
+ERROR 2022-09-27 16:52:31,586 83058 4717927872 /Users/zenglingmin/Downloads/mydp/mydevops-platform/stu_shop_managerBE/stu_shop_managerBE/harbor_ops.py harbor_ops.py soft_del_repos[line: 75] apilogin fail:  haha

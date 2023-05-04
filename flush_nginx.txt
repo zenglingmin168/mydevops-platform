@@ -1,0 +1,41 @@
+server {
+    listen       80;
+    server_name  localhost;
+
+    #access_log  /var/log/nginx/host.access.log  main;
+
+    location / {
+        root   /usr/share/nginx/html;
+        index  index.html index.htm;
+    }
+    error_page   500 502 503 504  /50x.html;
+    location = /50x.html {
+        root   /usr/share/nginx/html;
+    }
+
+    #check
+    location =/555555.txt {
+      root /opt/txt;
+    }
+    location =/444444.txt {
+      root /opt/txt;
+    }
+    location =/333333.txt {
+      root /opt/txt;
+    }
+    location =/222222.txt {
+      root /opt/txt;
+    }
+    location =/aaa.txt {
+      root /opt/txt;
+    }
+    location =/bbb.txt {
+      root /opt/txt;
+    }
+    location =/ccc.txt {
+      root /opt/txt;
+    }
+    location =/ddd.txt {
+      root /opt/txt;
+    }
+}

@@ -1,0 +1,1110 @@
+Watching for file changes with StatReloader
+[05/Jul/2022 07:03:11] "GET /manage/category/list?parentId=0 HTTP/1.1" 301 0
+[05/Jul/2022 07:03:11] "GET /manage/category/list/?parentId=0 HTTP/1.1" 200 1425
+[05/Jul/2022 07:05:22] "GET /manage/category/list/?parentId=0 HTTP/1.1" 200 1425
+[05/Jul/2022 07:05:41] "GET /manage/role/list/ HTTP/1.1" 200 1096
+[05/Jul/2022 07:05:52] "GET /manage/role/list/ HTTP/1.1" 200 1096
+[05/Jul/2022 07:28:55] "GET /manage/category/list/?parentId=0 HTTP/1.1" 200 1425
+[05/Jul/2022 07:29:10] "GET /manage/category/list/?parentId=0 HTTP/1.1" 200 1425
+[05/Jul/2022 07:29:16] "POST /manage/category/delete/ HTTP/1.1" 200 13
+[05/Jul/2022 07:29:16] "GET /manage/category/list/?parentId=0 HTTP/1.1" 200 1324
+[05/Jul/2022 07:29:26] "POST /manage/category/add/ HTTP/1.1" 200 124
+[05/Jul/2022 07:29:26] "GET /manage/category/list/?parentId=0 HTTP/1.1" 200 1425
+[05/Jul/2022 07:30:05] "GET /manage/category/list/?parentId=0 HTTP/1.1" 200 1425
+[05/Jul/2022 07:50:23] "POST /login/ HTTP/1.1" 200 78
+[05/Jul/2022 07:50:28] "GET /manage/category/list?parentId=0 HTTP/1.1" 301 0
+[05/Jul/2022 07:50:28] "GET /manage/category/list/?parentId=0 HTTP/1.1" 200 1425
+[05/Jul/2022 08:59:35] "POST /login/ HTTP/1.1" 200 78
+[05/Jul/2022 08:59:39] "POST /login/ HTTP/1.1" 200 78
+[05/Jul/2022 08:59:46] "POST /login/ HTTP/1.1" 200 78
+[05/Jul/2022 09:00:06] "POST /login/ HTTP/1.1" 200 171
+[05/Jul/2022 09:00:13] "GET /manage/category/list/?parentId=0 HTTP/1.1" 200 1425
+[05/Jul/2022 10:00:24] "GET /manage/category/list/?parentId=0 HTTP/1.1" 200 1425
+[05/Jul/2022 10:00:32] "GET /manage/category/list/?parentId=6ALntm7lko HTTP/1.1" 200 127
+[07/Jul/2022 09:17:57] "POST /login/ HTTP/1.1" 200 78
+[07/Jul/2022 09:18:06] "POST /login/ HTTP/1.1" 200 78
+[07/Jul/2022 09:18:15] "POST /login/ HTTP/1.1" 200 78
+[07/Jul/2022 09:26:56] "POST /login/ HTTP/1.1" 200 171
+[07/Jul/2022 09:28:38] "POST /login/ HTTP/1.1" 200 78
+[07/Jul/2022 09:28:46] "POST /login/ HTTP/1.1" 200 171
+[07/Jul/2022 09:35:58] "POST /login/ HTTP/1.1" 200 171
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view stu_shop_managerBE.views.login didn't return an HttpResponse object. It returned None instead.
+[07/Jul/2022 09:36:18] "GET /login/?amdin=admin HTTP/1.1" 500 57679
+[07/Jul/2022 09:36:29] "POST /login/ HTTP/1.1" 200 171
+[08/Jul/2022 09:02:22] "GET /manage/category/list/?parentId=0 HTTP/1.1" 200 1425
+[08/Jul/2022 09:05:41] "GET /manage/category/list/?parentId=0 HTTP/1.1" 200 1425
+[08/Jul/2022 09:07:31] "POST /login/ HTTP/1.1" 200 171
+[08/Jul/2022 09:08:15] "GET /manage/category/list/?parentId=0 HTTP/1.1" 200 1425
+[08/Jul/2022 09:16:42] "GET /manage/category/list/?parentId=0 HTTP/1.1" 200 1425
+[08/Jul/2022 09:16:45] "GET /manage/category/list/?parentId=0 HTTP/1.1" 200 1425
+[08/Jul/2022 09:16:49] "GET /manage/category/list/?parentId=0 HTTP/1.1" 200 1425
+[08/Jul/2022 09:16:56] "GET /manage/category/list/?parentId=0 HTTP/1.1" 200 1425
+[08/Jul/2022 09:19:27] "GET /manage/category/list/?parentId=0 HTTP/1.1" 200 1425
+[18/Jul/2022 08:45:10] "GET /manage/category/list/?parentId=0 HTTP/1.1" 200 1425
+[21/Jul/2022 10:30:44] "GET /manage/category/list/?parentId=0 HTTP/1.1" 200 1425
+[21/Jul/2022 10:33:07] "GET /manage/category/list/?parentId=0 HTTP/1.1" 200 1425
+[21/Jul/2022 10:40:24] "GET /manage/category/list/?parentId=0 HTTP/1.1" 200 1425
+[21/Jul/2022 10:41:09] "GET /manage/role/list/ HTTP/1.1" 200 1096
+[21/Jul/2022 10:41:45] "GET /manage/category/list/?parentId=0 HTTP/1.1" 200 1425
+[23/Jul/2022 09:19:36] "GET /manage/category/list/?parentId=0 HTTP/1.1" 200 1425
+[24/Jul/2022 14:34:05] "GET /manage/category/list/?parentId=0 HTTP/1.1" 200 1425
+[24/Jul/2022 14:35:57] "GET /manage/category/list/?parentId=nTXCaOgHtv HTTP/1.1" 200 25
+[24/Jul/2022 14:36:04] "GET /manage/category/list/?parentId=AJprzePYao HTTP/1.1" 200 504
+[25/Jul/2022 10:34:51] "POST /login/ HTTP/1.1" 200 171
+[25/Jul/2022 10:34:58] "GET /manage/category/list?parentId=0 HTTP/1.1" 301 0
+[25/Jul/2022 10:34:59] "GET /manage/category/list/?parentId=0 HTTP/1.1" 200 1425
+[25/Jul/2022 10:35:27] "GET /manage/category/list? HTTP/1.1" 301 0
+[25/Jul/2022 10:35:28] "GET /manage/category/list/ HTTP/1.1" 200 25
+[25/Jul/2022 10:35:35] "GET /manage/category/list?parentId=0 HTTP/1.1" 301 0
+[25/Jul/2022 10:35:35] "GET /manage/category/list/?parentId=0 HTTP/1.1" 200 1425
+[25/Jul/2022 10:35:38] "GET /manage/category/list?parentId=1 HTTP/1.1" 301 0
+[25/Jul/2022 10:35:38] "GET /manage/category/list/?parentId=1 HTTP/1.1" 200 25
+[25/Jul/2022 10:35:42] "GET /manage/category/list?parentId=0 HTTP/1.1" 301 0
+[25/Jul/2022 10:35:42] "GET /manage/category/list/?parentId=0 HTTP/1.1" 200 1425
+/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 05, 2022 - 07:02:32
+Django version 3.2.4, using settings 'stu_shop_managerBE.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 25, 2022 - 10:43:44
+Django version 3.2.4, using settings 'stu_shop_managerBE.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[25/Jul/2022 10:48:21] "GET /get_wether HTTP/1.1" 301 0
+Internal Server Error: /get_wether/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view stu_shop_managerBE.views.get_wether didn't return an HttpResponse object. It returned None instead.
+[25/Jul/2022 10:48:21] "GET /get_wether/ HTTP/1.1" 500 57415
+[27/Jul/2022 02:28:46] "GET /manage/category/list/?parentId=0 HTTP/1.1" 200 1425
+[27/Jul/2022 02:28:54] "GET /manage/category/list/?parentId=0 HTTP/1.1" 200 1425
+[27/Jul/2022 02:29:04] "GET /manage/role/list/ HTTP/1.1" 200 1096
+[27/Jul/2022 05:38:59] "GET /manage/role/list/ HTTP/1.1" 200 1096
+/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 25, 2022 - 10:47:12
+Django version 3.2.4, using settings 'stu_shop_managerBE.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+            日期     星期 最高温度 最低温度  天气      风向
+0   2022-06-01   星期三   30℃  20℃  多云   西风 2级
+1   2022-06-02   星期四   33℃  21℃   阴  西南风 1级
+2   2022-06-03   星期五   31℃  23℃  多云  东北风 2级
+3   2022-06-04   星期六   27℃  19℃  多云  西南风 2级
+4   2022-06-05   星期日   27℃  19℃  多云  西南风 1级
+5   2022-06-06   星期一   33℃  20℃  多云   南风 1级
+6   2022-06-07   星期二   33℃  21℃  多云  西南风 1级
+7   2022-06-08   星期三   28℃  20℃  多云  东南风 1级
+8   2022-06-09   星期四   27℃  21℃  多云  东北风 2级
+9   2022-06-10   星期五   28℃  21℃  多云   西风 2级
+10  2022-06-11   星期六   25℃  19℃  多云   东风 2级
+11  2022-06-12   星期日   27℃  20℃  多云   南风 1级
+12  2022-06-13   星期一   29℃  20℃  多云  西南风 1级
+13  2022-06-14   星期二   32℃  20℃   晴   南风 1级
+14  2022-06-15   星期三   32℃  21℃  多云  西南风 2级
+15  2022-06-16   星期四   31℃  21℃  多云   西风 2级
+16  2022-06-17   星期五   30℃  22℃   阴  东南风 2级
+17  2022-06-18   星期六   30℃  22℃  多云   西风 1级
+18  2022-06-19   星期日   33℃  23℃  多云   南风 1级
+19  2022-06-20   星期一   30℃  24℃  多云   东风 1级
+20  2022-06-21   星期二   31℃  24℃  小雨  东南风 1级
+21  2022-06-22   星期三   30℃  24℃  小雨  东北风 2级
+22  2022-06-23   星期四   32℃  23℃  多云   南风 1级
+23  2022-06-24   星期五   34℃  24℃  多云   南风 1级
+24  2022-06-25   星期六   30℃  24℃  多云  东南风 2级
+25  2022-06-26   星期日   26℃  22℃  多云  西南风 2级
+26  2022-06-27   星期一   36℃  23℃  多云  西南风 1级
+27  2022-06-28   星期二   37℃  24℃  多云   西风 2级
+28  2022-06-29   星期三   35℃  23℃  多云  西北风 1级
+29  2022-06-30   星期四   34℃  23℃   阴   北风 1级
+Watching for file changes with StatReloader
+[27/Jul/2022 09:57:19] "GET /get_wether?name=%E6%B7%B1%E5%9C%B3 HTTP/1.1" 301 0
+Internal Server Error: /get_wether/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view stu_shop_managerBE.views.get_wether didn't return an HttpResponse object. It returned None instead.
+[27/Jul/2022 09:57:19] "GET /get_wether/?name=%E6%B7%B1%E5%9C%B3 HTTP/1.1" 500 57849
+Internal Server Error: /get_wether/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view stu_shop_managerBE.views.get_wether didn't return an HttpResponse object. It returned None instead.
+[27/Jul/2022 09:57:56] "GET /get_wether/ HTTP/1.1" 500 57261
+Internal Server Error: /get_wether/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view stu_shop_managerBE.views.get_wether didn't return an HttpResponse object. It returned None instead.
+[27/Jul/2022 09:58:04] "GET /get_wether/?name=%E6%B7%B1%E5%9C%B3 HTTP/1.1" 500 57671
+[27/Jul/2022 09:58:16] "GET /get_wether?name=%E6%B7%B1%E5%9C%B3 HTTP/1.1" 301 0
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 27, 2022 - 09:57:08
+Django version 3.2.4, using settings 'stu_shop_managerBE.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+            日期     星期 最高温度 最低温度  天气      风向
+0   2022-06-01   星期三   30℃  20℃  多云   西风 2级
+1   2022-06-02   星期四   33℃  21℃   阴  西南风 1级
+2   2022-06-03   星期五   31℃  23℃  多云  东北风 2级
+3   2022-06-04   星期六   27℃  19℃  多云  西南风 2级
+4   2022-06-05   星期日   27℃  19℃  多云  西南风 1级
+5   2022-06-06   星期一   33℃  20℃  多云   南风 1级
+6   2022-06-07   星期二   33℃  21℃  多云  西南风 1级
+7   2022-06-08   星期三   28℃  20℃  多云  东南风 1级
+8   2022-06-09   星期四   27℃  21℃  多云  东北风 2级
+9   2022-06-10   星期五   28℃  21℃  多云   西风 2级
+10  2022-06-11   星期六   25℃  19℃  多云   东风 2级
+11  2022-06-12   星期日   27℃  20℃  多云   南风 1级
+12  2022-06-13   星期一   29℃  20℃  多云  西南风 1级
+13  2022-06-14   星期二   32℃  20℃   晴   南风 1级
+14  2022-06-15   星期三   32℃  21℃  多云  西南风 2级
+15  2022-06-16   星期四   31℃  21℃  多云   西风 2级
+16  2022-06-17   星期五   30℃  22℃   阴  东南风 2级
+17  2022-06-18   星期六   30℃  22℃  多云   西风 1级
+18  2022-06-19   星期日   33℃  23℃  多云   南风 1级
+19  2022-06-20   星期一   30℃  24℃  多云   东风 1级
+20  2022-06-21   星期二   31℃  24℃  小雨  东南风 1级
+21  2022-06-22   星期三   30℃  24℃  小雨  东北风 2级
+22  2022-06-23   星期四   32℃  23℃  多云   南风 1级
+23  2022-06-24   星期五   34℃  24℃  多云   南风 1级
+24  2022-06-25   星期六   30℃  24℃  多云  东南风 2级
+25  2022-06-26   星期日   26℃  22℃  多云  西南风 2级
+26  2022-06-27   星期一   36℃  23℃  多云  西南风 1级
+27  2022-06-28   星期二   37℃  24℃  多云   西风 2级
+28  2022-06-29   星期三   35℃  23℃  多云  西北风 1级
+29  2022-06-30   星期四   34℃  23℃   阴   北风 1级
+            日期     星期 最高温度 最低温度  天气      风向
+0   2022-06-01   星期三   30℃  20℃  多云   西风 2级
+1   2022-06-02   星期四   33℃  21℃   阴  西南风 1级
+2   2022-06-03   星期五   31℃  23℃  多云  东北风 2级
+3   2022-06-04   星期六   27℃  19℃  多云  西南风 2级
+4   2022-06-05   星期日   27℃  19℃  多云  西南风 1级
+5   2022-06-06   星期一   33℃  20℃  多云   南风 1级
+6   2022-06-07   星期二   33℃  21℃  多云  西南风 1级
+7   2022-06-08   星期三   28℃  20℃  多云  东南风 1级
+8   2022-06-09   星期四   27℃  21℃  多云  东北风 2级
+9   2022-06-10   星期五   28℃  21℃  多云   西风 2级
+10  2022-06-11   星期六   25℃  19℃  多云   东风 2级
+11  2022-06-12   星期日   27℃  20℃  多云   南风 1级
+12  2022-06-13   星期一   29℃  20℃  多云  西南风 1级
+13  2022-06-14   星期二   32℃  20℃   晴   南风 1级
+14  2022-06-15   星期三   32℃  21℃  多云  西南风 2级
+15  2022-06-16   星期四   31℃  21℃  多云   西风 2级
+16  2022-06-17   星期五   30℃  22℃   阴  东南风 2级
+17  2022-06-18   星期六   30℃  22℃  多云   西风 1级
+18  2022-06-19   星期日   33℃  23℃  多云   南风 1级
+19  2022-06-20   星期一   30℃  24℃  多云   东风 1级
+20  2022-06-21   星期二   31℃  24℃  小雨  东南风 1级
+21  2022-06-22   星期三   30℃  24℃  小雨  东北风 2级
+22  2022-06-23   星期四   32℃  23℃  多云   南风 1级
+23  2022-06-24   星期五   34℃  24℃  多云   南风 1级
+24  2022-06-25   星期六   30℃  24℃  多云  东南风 2级
+25  2022-06-26   星期日   26℃  22℃  多云  西南风 2级
+26  2022-06-27   星期一   36℃  23℃  多云  西南风 1级
+27  2022-06-28   星期二   37℃  24℃  多云   西风 2级
+28  2022-06-29   星期三   35℃  23℃  多云  西北风 1级
+29  2022-06-30   星期四   34℃  23℃   阴   北风 1级
+            日期     星期 最高温度 最低温度  天气      风向
+0   2022-06-01   星期三   30℃  20℃  多云   西风 2级
+1   2022-06-02   星期四   33℃  21℃   阴  西南风 1级
+2   2022-06-03   星期五   31℃  23℃  多云  东北风 2级
+3   2022-06-04   星期六   27℃  19℃  多云  西南风 2级
+4   2022-06-05   星期日   27℃  19℃  多云  西南风 1级
+5   2022-06-06   星期一   33℃  20℃  多云   南风 1级
+6   2022-06-07   星期二   33℃  21℃  多云  西南风 1级
+7   2022-06-08   星期三   28℃  20℃  多云  东南风 1级
+8   2022-06-09   星期四   27℃  21℃  多云  东北风 2级
+9   2022-06-10   星期五   28℃  21℃  多云   西风 2级
+10  2022-06-11   星期六   25℃  19℃  多云   东风 2级
+11  2022-06-12   星期日   27℃  20℃  多云   南风 1级
+12  2022-06-13   星期一   29℃  20℃  多云  西南风 1级
+13  2022-06-14   星期二   32℃  20℃   晴   南风 1级
+14  2022-06-15   星期三   32℃  21℃  多云  西南风 2级
+15  2022-06-16   星期四   31℃  21℃  多云   西风 2级
+16  2022-06-17   星期五   30℃  22℃   阴  东南风 2级
+17  2022-06-18   星期六   30℃  22℃  多云   西风 1级
+18  2022-06-19   星期日   33℃  23℃  多云   南风 1级
+19  2022-06-20   星期一   30℃  24℃  多云   东风 1级
+20  2022-06-21   星期二   31℃  24℃  小雨  东南风 1级
+21  2022-06-22   星期三   30℃  24℃  小雨  东北风 2级
+22  2022-06-23   星期四   32℃  23℃  多云   南风 1级
+23  2022-06-24   星期五   34℃  24℃  多云   南风 1级
+24  2022-06-25   星期六   30℃  24℃  多云  东南风 2级
+25  2022-06-26   星期日   26℃  22℃  多云  西南风 2级
+26  2022-06-27   星期一   36℃  23℃  多云  西南风 1级
+27  2022-06-28   星期二   37℃  24℃  多云   西风 2级
+28  2022-06-29   星期三   35℃  23℃  多云  西北风 1级
+29  2022-06-30   星期四   34℃  23℃   阴   北风 1级
+Internal Server Error: /get_wether/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view stu_shop_managerBE.views.get_wether didn't return an HttpResponse object. It returned None instead.
+[27/Jul/2022 09:58:17] "GET /get_wether/?name=%E6%B7%B1%E5%9C%B3 HTTP/1.1" 500 57849
+[27/Jul/2022 10:10:31] "GET /get_wether?name=%E6%B7%B1%E5%9C%B3 HTTP/1.1" 301 0
+Internal Server Error: /get_wether/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view stu_shop_managerBE.views.get_wether didn't return an HttpResponse object. It returned None instead.
+[27/Jul/2022 10:10:32] "GET /get_wether/?name=%E6%B7%B1%E5%9C%B3 HTTP/1.1" 500 57849
+/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/views.py changed, reloading.
+            日期     星期 最高温度 最低温度  天气      风向
+0   2022-06-01   星期三   30℃  20℃  多云   西风 2级
+1   2022-06-02   星期四   33℃  21℃   阴  西南风 1级
+2   2022-06-03   星期五   31℃  23℃  多云  东北风 2级
+3   2022-06-04   星期六   27℃  19℃  多云  西南风 2级
+4   2022-06-05   星期日   27℃  19℃  多云  西南风 1级
+5   2022-06-06   星期一   33℃  20℃  多云   南风 1级
+6   2022-06-07   星期二   33℃  21℃  多云  西南风 1级
+7   2022-06-08   星期三   28℃  20℃  多云  东南风 1级
+8   2022-06-09   星期四   27℃  21℃  多云  东北风 2级
+9   2022-06-10   星期五   28℃  21℃  多云   西风 2级
+10  2022-06-11   星期六   25℃  19℃  多云   东风 2级
+11  2022-06-12   星期日   27℃  20℃  多云   南风 1级
+12  2022-06-13   星期一   29℃  20℃  多云  西南风 1级
+13  2022-06-14   星期二   32℃  20℃   晴   南风 1级
+14  2022-06-15   星期三   32℃  21℃  多云  西南风 2级
+15  2022-06-16   星期四   31℃  21℃  多云   西风 2级
+16  2022-06-17   星期五   30℃  22℃   阴  东南风 2级
+17  2022-06-18   星期六   30℃  22℃  多云   西风 1级
+18  2022-06-19   星期日   33℃  23℃  多云   南风 1级
+19  2022-06-20   星期一   30℃  24℃  多云   东风 1级
+20  2022-06-21   星期二   31℃  24℃  小雨  东南风 1级
+21  2022-06-22   星期三   30℃  24℃  小雨  东北风 2级
+22  2022-06-23   星期四   32℃  23℃  多云   南风 1级
+23  2022-06-24   星期五   34℃  24℃  多云   南风 1级
+24  2022-06-25   星期六   30℃  24℃  多云  东南风 2级
+25  2022-06-26   星期日   26℃  22℃  多云  西南风 2级
+26  2022-06-27   星期一   36℃  23℃  多云  西南风 1级
+27  2022-06-28   星期二   37℃  24℃  多云   西风 2级
+28  2022-06-29   星期三   35℃  23℃  多云  西北风 1级
+29  2022-06-30   星期四   34℃  23℃   阴   北风 1级
+            日期     星期 最高温度 最低温度  天气      风向
+0   2022-06-01   星期三   30℃  20℃  多云   西风 2级
+1   2022-06-02   星期四   33℃  21℃   阴  西南风 1级
+2   2022-06-03   星期五   31℃  23℃  多云  东北风 2级
+3   2022-06-04   星期六   27℃  19℃  多云  西南风 2级
+4   2022-06-05   星期日   27℃  19℃  多云  西南风 1级
+5   2022-06-06   星期一   33℃  20℃  多云   南风 1级
+6   2022-06-07   星期二   33℃  21℃  多云  西南风 1级
+7   2022-06-08   星期三   28℃  20℃  多云  东南风 1级
+8   2022-06-09   星期四   27℃  21℃  多云  东北风 2级
+9   2022-06-10   星期五   28℃  21℃  多云   西风 2级
+10  2022-06-11   星期六   25℃  19℃  多云   东风 2级
+11  2022-06-12   星期日   27℃  20℃  多云   南风 1级
+12  2022-06-13   星期一   29℃  20℃  多云  西南风 1级
+13  2022-06-14   星期二   32℃  20℃   晴   南风 1级
+14  2022-06-15   星期三   32℃  21℃  多云  西南风 2级
+15  2022-06-16   星期四   31℃  21℃  多云   西风 2级
+16  2022-06-17   星期五   30℃  22℃   阴  东南风 2级
+17  2022-06-18   星期六   30℃  22℃  多云   西风 1级
+18  2022-06-19   星期日   33℃  23℃  多云   南风 1级
+19  2022-06-20   星期一   30℃  24℃  多云   东风 1级
+20  2022-06-21   星期二   31℃  24℃  小雨  东南风 1级
+21  2022-06-22   星期三   30℃  24℃  小雨  东北风 2级
+22  2022-06-23   星期四   32℃  23℃  多云   南风 1级
+23  2022-06-24   星期五   34℃  24℃  多云   南风 1级
+24  2022-06-25   星期六   30℃  24℃  多云  东南风 2级
+25  2022-06-26   星期日   26℃  22℃  多云  西南风 2级
+26  2022-06-27   星期一   36℃  23℃  多云  西南风 1级
+27  2022-06-28   星期二   37℃  24℃  多云   西风 2级
+28  2022-06-29   星期三   35℃  23℃  多云  西北风 1级
+29  2022-06-30   星期四   34℃  23℃   阴   北风 1级
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/core/management/commands/runserver.py", line 118, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python3.9/site-packages/django/core/management/base.py", line 419, in check
+    all_issues = checks.run_checks(
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/registry.py", line 76, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 412, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 598, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 591, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/urls.py", line 20, in <module>
+    from . import views
+  File "/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/views.py", line 235
+    try：
+       ^
+SyntaxError: invalid character '：' (U+FF1A)
+/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/views.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/core/management/commands/runserver.py", line 118, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python3.9/site-packages/django/core/management/base.py", line 419, in check
+    all_issues = checks.run_checks(
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/registry.py", line 76, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 412, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 598, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 591, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/urls.py", line 22, in <module>
+    from . import test
+ImportError: cannot import name 'test' from 'stu_shop_managerBE' (/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/__init__.py)
+/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/urls.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+[27/Jul/2022 10:41:20] "GET /get_wether?name=%E6%B7%B1%E5%9C%B3 HTTP/1.1" 301 0
+Internal Server Error: /get_wether/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/test.py", line 77, in getWeather
+    print('city:', result.get('data').get('city'))
+AttributeError: 'NoneType' object has no attribute 'get'
+[27/Jul/2022 10:41:20] "GET /get_wether/?name=%E6%B7%B1%E5%9C%B3 HTTP/1.1" 500 57901
+[27/Jul/2022 10:41:37] "GET /get_wether?name=%27%E6%B7%B1%E5%9C%B3%27 HTTP/1.1" 301 0
+Internal Server Error: /get_wether/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/test.py", line 77, in getWeather
+    print('city:', result.get('data').get('city'))
+AttributeError: 'NoneType' object has no attribute 'get'
+[27/Jul/2022 10:41:37] "GET /get_wether/?name=%27%E6%B7%B1%E5%9C%B3%27 HTTP/1.1" 500 57955
+/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/test.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 27, 2022 - 10:41:18
+Django version 3.2.4, using settings 'stu_shop_managerBE.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 27, 2022 - 10:42:07
+Django version 3.2.4, using settings 'stu_shop_managerBE.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[27/Jul/2022 10:42:16] "GET /get_wether?name=%27%E6%B7%B1%E5%9C%B3%27 HTTP/1.1" 301 0
+Internal Server Error: /get_wether/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/test.py", line 77, in getWeather
+    print('city:', result.get('data').get('city'))
+AttributeError: 'NoneType' object has no attribute 'get'
+[27/Jul/2022 10:42:16] "GET /get_wether/?name=%27%E6%B7%B1%E5%9C%B3%27 HTTP/1.1" 500 57947
+[27/Jul/2022 10:42:24] "GET /get_wether?name=%E6%B7%B1%E5%9C%B3 HTTP/1.1" 301 0
+Internal Server Error: /get_wether/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/test.py", line 77, in getWeather
+    print('city:', result.get('data').get('city'))
+AttributeError: 'NoneType' object has no attribute 'get'
+[27/Jul/2022 10:42:24] "GET /get_wether/?name=%E6%B7%B1%E5%9C%B3 HTTP/1.1" 500 57893
+[27/Jul/2022 10:42:31] "GET /get_wether?name=%27%E6%B7%B1%E5%9C%B3%27 HTTP/1.1" 301 0
+Internal Server Error: /get_wether/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/test.py", line 77, in getWeather
+    print('city:', result.get('data').get('city'))
+AttributeError: 'NoneType' object has no attribute 'get'
+[27/Jul/2022 10:42:31] "GET /get_wether/?name=%27%E6%B7%B1%E5%9C%B3%27 HTTP/1.1" 500 57947
+/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/test.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 27, 2022 - 10:42:11
+Django version 3.2.4, using settings 'stu_shop_managerBE.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/test.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 06, 2022 - 07:40:58
+Django version 3.2.4, using settings 'stu_shop_managerBE.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 06, 2022 - 07:41:37
+Django version 3.2.4, using settings 'stu_shop_managerBE.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/core/management/commands/runserver.py", line 118, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python3.9/site-packages/django/core/management/base.py", line 419, in check
+    all_issues = checks.run_checks(
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/registry.py", line 76, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 412, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 598, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 591, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/urls.py", line 23, in <module>
+    from . import test
+ImportError: cannot import name 'test' from 'stu_shop_managerBE' (/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/__init__.py)
+/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/ssh_cmd.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/core/management/commands/runserver.py", line 118, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python3.9/site-packages/django/core/management/base.py", line 419, in check
+    all_issues = checks.run_checks(
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/registry.py", line 76, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 412, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 598, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 591, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/urls.py", line 16, in <module>
+    from stu_shop_managerBE.ssh_cmd import ssh_cmd
+ImportError: cannot import name 'ssh_cmd' from 'stu_shop_managerBE.ssh_cmd' (/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/ssh_cmd.py)
+/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/urls.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/core/management/commands/runserver.py", line 118, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python3.9/site-packages/django/core/management/base.py", line 419, in check
+    all_issues = checks.run_checks(
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/registry.py", line 76, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 412, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 598, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 591, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/urls.py", line 16, in <module>
+    from stu_shop_managerBE.ssh_cmd import ssh_cmd
+ImportError: cannot import name 'ssh_cmd' from 'stu_shop_managerBE.ssh_cmd' (/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/ssh_cmd.py)
+/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/ssh_cmd.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/core/management/commands/runserver.py", line 118, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python3.9/site-packages/django/core/management/base.py", line 419, in check
+    all_issues = checks.run_checks(
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/registry.py", line 76, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 412, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 598, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 591, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/urls.py", line 16, in <module>
+    from stu_shop_managerBE.ssh_cmd import ssh_cmd
+ImportError: cannot import name 'ssh_cmd' from 'stu_shop_managerBE.ssh_cmd' (/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/ssh_cmd.py)
+/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/urls.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/core/management/commands/runserver.py", line 118, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python3.9/site-packages/django/core/management/base.py", line 419, in check
+    all_issues = checks.run_checks(
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/registry.py", line 76, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 412, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 598, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 591, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/urls.py", line 16, in <module>
+    from stu_shop_managerBE.ssh_cmd import ssh_cmd
+ImportError: cannot import name 'ssh_cmd' from 'stu_shop_managerBE.ssh_cmd' (/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/ssh_cmd.py)
+/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/urls.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/core/management/commands/runserver.py", line 118, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python3.9/site-packages/django/core/management/base.py", line 419, in check
+    all_issues = checks.run_checks(
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/registry.py", line 76, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 412, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 598, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 591, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/urls.py", line 16, in <module>
+    from stu_shop_managerBE.ssh_cmd import ssh_cmd
+ImportError: cannot import name 'ssh_cmd' from 'stu_shop_managerBE.ssh_cmd' (/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/ssh_cmd.py)
+/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/urls.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/core/management/commands/runserver.py", line 118, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python3.9/site-packages/django/core/management/base.py", line 419, in check
+    all_issues = checks.run_checks(
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/registry.py", line 76, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 412, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 598, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 591, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/urls.py", line 16, in <module>
+    from stu_shop_managerBE.ssh_cmd import ssh_cmd
+ImportError: cannot import name 'ssh_cmd' from 'stu_shop_managerBE.ssh_cmd' (/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/ssh_cmd.py)
+/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/urls.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/core/management/commands/runserver.py", line 118, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python3.9/site-packages/django/core/management/base.py", line 419, in check
+    all_issues = checks.run_checks(
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/registry.py", line 76, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 412, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 598, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 591, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/urls.py", line 16, in <module>
+    from stu_shop_managerBE.ssh_cmd import ssh_cmd
+ImportError: cannot import name 'ssh_cmd' from 'stu_shop_managerBE.ssh_cmd' (/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/ssh_cmd.py)
+/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/ssh_cmd.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/core/management/commands/runserver.py", line 118, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python3.9/site-packages/django/core/management/base.py", line 419, in check
+    all_issues = checks.run_checks(
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/registry.py", line 76, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 412, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 598, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 591, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/urls.py", line 16, in <module>
+    from stu_shop_managerBE.ssh_cmd import ssh_cmd
+ImportError: cannot import name 'ssh_cmd' from 'stu_shop_managerBE.ssh_cmd' (/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/ssh_cmd.py)
+/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/urls.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/core/management/commands/runserver.py", line 118, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python3.9/site-packages/django/core/management/base.py", line 419, in check
+    all_issues = checks.run_checks(
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/registry.py", line 76, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 412, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 598, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 591, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/urls.py", line 16, in <module>
+    from stu_shop_managerBE.ssh_cmd import ssh_cmd
+ImportError: cannot import name 'ssh_cmd' from 'stu_shop_managerBE.ssh_cmd' (/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/ssh_cmd.py)
+/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/ssh_cmd.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/core/management/commands/runserver.py", line 118, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python3.9/site-packages/django/core/management/base.py", line 419, in check
+    all_issues = checks.run_checks(
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/registry.py", line 76, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 412, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 598, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 591, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/urls.py", line 16, in <module>
+    from stu_shop_managerBE.ssh_cmd import ssh_cmd
+ImportError: cannot import name 'ssh_cmd' from 'stu_shop_managerBE.ssh_cmd' (/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/ssh_cmd.py)
+/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/urls.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/core/management/commands/runserver.py", line 118, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python3.9/site-packages/django/core/management/base.py", line 419, in check
+    all_issues = checks.run_checks(
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/registry.py", line 76, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 412, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 598, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 591, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/urls.py", line 22, in <module>
+    from . import test
+ImportError: cannot import name 'test' from 'stu_shop_managerBE' (/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/__init__.py)
+/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/urls.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/core/management/commands/runserver.py", line 118, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python3.9/site-packages/django/core/management/base.py", line 419, in check
+    all_issues = checks.run_checks(
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/registry.py", line 76, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python3.9/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 412, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 598, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.9/site-packages/django/urls/resolvers.py", line 591, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/urls.py", line 36, in <module>
+    url('get_wether/',test.getWeather),                     #获取天气信息
+NameError: name 'test' is not defined
+/Users/zenglingmin/Downloads/mydp/stu_shop_managerBE/stu_shop_managerBE/urls.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+Error: That port is already in use.
